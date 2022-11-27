@@ -1,16 +1,17 @@
 import discord
 from discord.ext import commands
 import json
+import random
 
 with open('setting.json', 'r', encoding='utf8') as file:
     data = json.load(file)
 
+intents = discord.Intents.all()
+# intents = discord.Intents.default()
+# intents.members = True
 
-intents = discord.Intents.default()
-intents.members = True
 
-
-bot = commands.Bot(command_prefix='!', intents=intents)
+bot = commands.Bot(command_prefix="!", intents=intents)
 
 
 @bot.event
@@ -40,8 +41,9 @@ async def ping(ctx):
 
 @bot.command()
 async def 圖片(ctx):
-    image = discord.File(data['image'])
-    await ctx.send(File=image)
+    random_image = random.choice(data['image'])
+    image = discord.File(random_image)
+    await ctx.send(file=image)
 
 
 bot.run(data['TOKEN'])
