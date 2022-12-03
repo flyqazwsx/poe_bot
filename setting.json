@@ -1,9 +1,14 @@
 {
-    "TOKEN": "MTA0NjQ2MTY2ODI3Nzg5NTIyOQ.GxnyCB.jzjnIR5iT4Ye_-nm6MHn7vYR_Offdsfdsa-6M",
+    "TOKEN": "MTA0NjQ2MTY2ODI3Nzg5NTIyOQ.GO7NdE.dfasfdsaX98QLJQ7W5V6TvIqh5KSAWWVwslf14",
     "Welcome_channel": "1046103769831714937",
     "Leave_channel": "1046103818607263835",
     "image": [
-        "C:\\Users\\admin\\Desktop\\程式\\discord\\image\\OIP.jpg",
-        "C:\\Users\\admin\\Desktop\\程式\\discord\\image\\OIP1.jpg"
-    ]
+        "C:\\Users\\admin\\Desktop\\\u7a0b\u5f0f\\discord\\image\\OIP.jpg",
+        "C:\\Users\\admin\\Desktop\\\u7a0b\u5f0f\\discord\\image\\OIP1.jpg"
+    ],
+    "image1": [
+        "D:\\\u7a0b\u5f0f\\discord\\image\\OIP.jpg",
+        "D:\\\u7a0b\u5f0f\\discord\\image\\OIP1.jpg"
+    ],
+    "time": "2304"
 }
